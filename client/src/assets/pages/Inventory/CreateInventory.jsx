@@ -122,7 +122,7 @@ const CreateInventory = () => {
       });
       setTimeout(() => {
         setLoading(false);
-        navigate('/');
+        navigate('/inventoryDashboard');
       }, 1500);
     } catch (error) {
       setLoading(false);
